@@ -5,7 +5,7 @@
     
     <groupId>fr.upsud.info</groupId>
 	<!-- Remplacez ici Nom1 et Nom2 par vos noms de votre binome dans l'ordre alphabetique -->
-    <artifactId>iia.td3-4_Nom1_Nom2</artifactId>
+    <artifactId>iia.td3-4_ZHANG_ZHU</artifactId>
     <packaging>jar</packaging>
     <version>1.0</version>
     
@@ -24,7 +24,7 @@
 
     
     <!-- Remplacez ici Nom1 et Nom2 par vos noms de votre binome dans l'ordre alphabetique -->
-    <name>iia.td3-4_Nom1_Nom2</name>
+    <name>iia.td3-4_ZHANG_ZHU</name>
 
 
 
