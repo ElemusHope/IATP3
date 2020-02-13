@@ -50,6 +50,7 @@ public class PartieDominos {
             System.out.println("Coups possibles pour" + lesJoueurs[jnum] + " : " + lesCoupsPossibles);
             if (lesCoupsPossibles.size() > 0) {
                 // On écrit le plateau
+            	
 
                 // Lancement de l'algo de recherche du meilleur coup
                 System.out.println("Recherche du meilleur coup avec l'algo " + AlgoJoueur[jnum]);

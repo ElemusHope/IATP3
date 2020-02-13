@@ -11,7 +11,7 @@ public class PlateauDominos implements PlateauJeu {
 	/* *********** constantes *********** */
 
 	/** Taille de la grille */
-	public final static int TAILLE = 7;
+	public final static int TAILLE = 4;
 
 	/* *********** Paramètres de classe *********** */
 
@@ -30,6 +30,14 @@ public class PlateauDominos implements PlateauJeu {
 	/** le damier */
 	private int damier[][];
 
+	public int[][] getDamier() {
+		return damier;
+	}
+
+	public void setDamier(int[][] damier) {
+		this.damier = damier;
+	}
+
 	/************* Constructeurs ****************/ 
 
 	public PlateauDominos(){
@@ -46,7 +54,7 @@ public class PlateauDominos implements PlateauJeu {
 				damier[i][j] = depuis[i][j];
 	}
 
-	/************* Gestion des paramètres de classe** ****************/ 
+	/************* Gestion des paramètres de classe ******************/ 
 
 	public static void setJoueurs(Joueur jb, Joueur jn) {
 		joueurBlanc = jb;
